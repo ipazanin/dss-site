@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Domain Software Solutions | .NET backend development</title>
+  <meta name="description" content="Domain Software Solutions is the software company of Ivan Pažanin, a .NET backend engineer in Split, Croatia.">
+  <link rel="canonical" href="https://domain-software-solutions.hr/">
+  <link rel="alternate" hreflang="en" href="https://domain-software-solutions.hr/">
+  <link rel="alternate" hreflang="hr" href="https://domain-software-solutions.hr/hr/">
+  <link rel="alternate" hreflang="x-default" href="https://domain-software-solutions.hr/">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Domain Software Solutions">
+  <meta property="og:description" content=".NET backends and data-heavy web apps, built to be maintained.">
+  <meta property="og:url" content="https://domain-software-solutions.hr/">
+  <meta property="og:image" content="https://domain-software-solutions.hr/assets/link-preview.png">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="logo" href="/" aria-label="Domain Software Solutions, home">
+        <img class="on-light" src="/assets/logo-black.png" width="600" height="215" alt="Domain Software Solutions">
+        <img class="on-dark" src="/assets/logo-white.png" width="600" height="215" alt="Domain Software Solutions">
+      </a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="/hr/" hreflang="hr" lang="hr">Hrvatski</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <p class="label">Software company in Split, Croatia</p>
+      <h1>.NET backends and data-heavy web apps, built to be maintained.</h1>
+      <p class="lede">Domain Software Solutions is the company of Ivan Pažanin, a backend engineer who has shipped .NET and PostgreSQL systems in automotive, telecom and healthcare since 2019. I take on contract development and technical lead work.</p>
+      <a class="button" href="#contact">Get in touch</a>
+    </div>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>Services</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Backend and API development</h3>
+            <p>ASP.NET Core Web APIs, background jobs and PostgreSQL schemas shaped around the business rules, with tests that run against a real database.</p>
+          </div>
+          <div class="card">
+            <h3>Architecture and technical lead</h3>
+            <p>Domain modelling, architecture proposals and code review, plus the requirement sessions with stakeholders that come before any of it.</p>
+          </div>
+          <div class="card">
+            <h3>Integrations and automation</h3>
+            <p>Connecting on-premises systems, external APIs and analytics in real time, and scripting away manual testing and paperwork.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Kuna</h3>
+            <p>A finance app for a small company that runs entirely in the browser. It syncs bank statements, makes invoices, reads the accountant's VAT returns and payslips, and tracks loans and investments. The books are one file on the owner's Google Drive, with no backend.</p>
+            <div class="stack">Vue 3, TypeScript, Google Drive and Gmail APIs</div>
+            <div class="links">
+              <a href="https://ipazanin.github.io/kuna/">Open app</a>
+              <a href="https://github.com/ipazanin/kuna">Source</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Tipsy Trouble</h3>
+            <p>A party card game for one shared phone or several connected ones. It has custom cards, timed rules with visible countdowns and rules the table writes itself, and it plays offline after the first visit.</p>
+            <div class="stack">Vue 3, TypeScript, IndexedDB, service worker</div>
+            <div class="links">
+              <a href="https://ipazanin.github.io/tipsy-trouble/">Play</a>
+              <a href="https://github.com/ipazanin/tipsy-trouble">Source</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Shunt</h3>
+            <p>A dashboard that reads a JK-BMS and a Victron solar charger over Bluetooth, straight from the browser. Subtracting one from the other gives the boat's house load without installing a shunt.</p>
+            <div class="stack">Vue 3, TypeScript, Web Bluetooth</div>
+            <div class="links">
+              <a href="https://ipazanin.github.io/jk-bms-victron-dashboard/">Open app</a>
+              <a href="https://github.com/ipazanin/jk-bms-victron-dashboard">Source</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Valore</h3>
+            <p>A private portfolio and net-worth tracker. Accounts, holdings, property and debts stay in the browser, with dated history charts and JSON backups.</p>
+            <div class="stack">Vue 3, TypeScript, Pinia, Dexie, Chart.js</div>
+            <div class="links">
+              <a href="https://ipazanin.github.io/valore/">Open app</a>
+              <a href="https://github.com/ipazanin/valore">Source</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Espresso</h3>
+            <p>A Croatian news aggregator I founded in 2020. An ASP.NET backend parses publishers' RSS feeds for the iOS and Android apps, a React web app and a Blazor admin dashboard. It reached about 800 daily active users.</p>
+            <div class="stack">ASP.NET, C#, Blazor, React, PostgreSQL</div>
+            <div class="links">
+              <a href="https://apps.apple.com/hr/app/espresso-hr-digitalne-vijesti/id1498668438">App Store</a>
+              <a href="https://play.google.com/store/apps/details?id=com.espresso.news">Google Play</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li>
+            <span class="label">2025 –</span>
+            <div>
+              <h3>Domain Software Solutions <span class="role">Founder</span></h3>
+              <p>Contract .NET development and consulting.</p>
+            </div>
+          </li>
+          <li>
+            <span class="label">2024 – 2025</span>
+            <div>
+              <h3>Thoughtcap <span class="role">Tech lead</span></h3>
+              <p>A .NET web solution for reprocessing medical endoscopes, integrated in real time with external systems and analytics. Led technical decisions through written architecture proposals.</p>
+            </div>
+          </li>
+          <li>
+            <span class="label">2021 – 2024</span>
+            <div>
+              <h3>Rimac Technology <span class="role">Software engineer</span></h3>
+              <p>A .NET WPF calibration and diagnostics tool for electric hypercars. Python scripting inside the tool replaced manual testing, and an in-app Simulink viewer saved the cost of expensive licences.</p>
+            </div>
+          </li>
+          <li>
+            <span class="label">2021 – 2023</span>
+            <div>
+              <h3>FESB, University of Split <span class="role">Teaching assistant</span></h3>
+              <p>Two years of teaching at the faculty where I took my master's in computer engineering.</p>
+            </div>
+          </li>
+          <li>
+            <span class="label">2019 – 2021</span>
+            <div>
+              <h3>Profico <span class="role">Software engineer</span></h3>
+              <p>.NET consultant at Ericsson Nikola Tesla on a network-testing application used by operators such as T-Mobile and Vodafone, and NestJS booking backends on AWS.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p>Tell me what you are building and where it hurts. I usually reply within a working day.</p>
+        <ul>
+          <li><a href="mailto:ivan.pazanin1996@gmail.com">ivan.pazanin1996@gmail.com</a></li>
+          <li><a href="tel:+385911131599">+385 91 113 1599</a></li>
+          <li><a href="https://www.linkedin.com/in/ivanpazanin">LinkedIn</a></li>
+          <li><a href="https://github.com/ipazanin">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Domain Software Solutions d.o.o., Ulica Domovinskog rata 104C, 21000 Split, Croatia</p>
+      <p>Registered at the Commercial Court in Split, MBS 060499642, OIB 91669393916</p>
+      <p>Share capital EUR 2,500.00, paid in full. Director: Ivan Pažanin</p>
+      <p>Account HR3624020061101354064 at Erste&amp;Steiermärkische Bank d.d.</p>
+    </div>
+  </footer>
+</body>
+</html>
